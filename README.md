@@ -1,8 +1,3 @@
-import random
-
-lower = "abcdefghijklmnopqrstuvwxyz"
-upper = "ABCDEFGHIJKLMNOPQRSTUVWXYZ"
-number = "0123456789"
-special = "[]{}()*;/.,_-"
-
-all = lower + upper + number + special
+![Image of Python](https://marcas-logos.net/wp-content/uploads/2020/11/Python-logo.png)
+# PythonCodes
+### Some Python code that I may need to use or help someone when they need it.
