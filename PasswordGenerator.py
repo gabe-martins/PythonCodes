@@ -1,12 +1,14 @@
 import random
+import string
 
-lower = "abcdefghijklmnopqrstuvwxyz"
-upper = "ABCDEFGHIJKLMNOPQRSTUVWXYZ"
-number = "0123456789"
-special = "[]{}()*;/.,_-"
+length = 16
+
+lower = string.ascii_lowercase
+upper = string.ascii_uppercase
+number = string.digits
+special = string.punctuation
 
 all = lower + upper + number + special
 
-length = 16
 passowrd = "".join(random.sample(all,length))
 print(passowrd)
