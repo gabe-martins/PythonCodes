@@ -10,5 +10,5 @@ special = string.punctuation
 
 all = lower + upper + number + special
 
-passowrd = "".join(random.sample(all,length))
-print(passowrd)
+passoword = "".join(random.sample(all,length))
+print(passoword)
